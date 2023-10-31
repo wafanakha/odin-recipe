@@ -12,11 +12,12 @@ img {
 #title {
   text-align: center;
   font-family: "Nosifer", sans-serif;
+  font-size: 2rem;
   margin-top: 1rem;
 }
 #main-container {
   position: relative;
-  top: 3rem;
+  top: 1rem;
   width: 60rem;
   height: 49rem;
   background-color: #f28914;
