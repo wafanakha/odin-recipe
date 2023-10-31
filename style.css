@@ -6,12 +6,15 @@
 body {
   background: url(pictures/Halloween-seamless-pattern-by-thanaporn.pinp_-2.jpg);
 }
-h1 {
+img {
+  width: max-content;
+}
+#title {
   text-align: center;
   font-family: "Nosifer", sans-serif;
   margin-top: auto;
 }
-div {
+#main-container {
   position: relative;
   top: 6rem;
   width: 60rem;
@@ -20,4 +23,9 @@ div {
   margin: auto;
   border: 10px solid;
   border-radius: 15px;
+}
+#recipe-container {
+  background-color: aqua;
+  height: auto;
+  display: flex;
 }
