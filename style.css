@@ -31,10 +31,11 @@ img {
   flex-wrap: wrap;
   font-family: "Amatic SC", sans-serif;
 }
-#recipe-container div {
+#recipe-container a {
   border: 5px solid;
   background-color: black;
   color: #f28914;
+  text-decoration: none;
   border-radius: 10px;
   width: 45%;
   margin: 1rem;
@@ -44,7 +45,7 @@ img {
   align-items: center;
   justify-content: center;
 }
-#recipe-container div img {
+#recipe-container a img {
   border: 5px solid #f28914;
   border-radius: 10px;
   margin-top: 1rem;
