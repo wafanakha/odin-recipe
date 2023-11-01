@@ -3,3 +3,52 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-image: url(../pictures/Halloween-seamless-pattern-by-thanaporn.pinp_-2.jpg);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul {
+  margin-left: 1rem;
+}
+nav {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+  top: 10rem;
+}
+nav div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 5px solid;
+  border-radius: 10px;
+  background-color: #f28914;
+  padding: 4rem;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+}
+#main-container {
+  position: relative;
+  background-color: #f28914;
+  border: 5px solid;
+  border-radius: 10px;
+  width: 55%;
+  padding: 4rem;
+  top: 3rem;
+  left: 35rem;
+  margin-bottom: 4rem;
+}
+#main-container h1 {
+  margin-bottom: 4rem;
+}
+#main-container h2 {
+  margin-bottom: 1rem;
+}
+#main-container div {
+  margin-bottom: 4rem;
+}
