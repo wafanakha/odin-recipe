@@ -10,6 +10,15 @@ body {
 ul {
   margin-left: 1rem;
 }
+li {
+  margin-bottom: 0.5rem;
+}
+img {
+  border: 5px solid black;
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
 nav {
   position: fixed;
   display: flex;
@@ -34,12 +43,7 @@ nav a {
   text-decoration: none;
   margin-bottom: 1rem;
 }
-nav img {
-  border: 5px solid black;
-  border-radius: 10px;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-}
+
 #main-container {
   position: relative;
   background-color: #f28914;
